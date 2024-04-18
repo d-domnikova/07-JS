@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>07-JS 1-1</title>
+    <style>
+      #h2, #div{
+        color: black;
+        background-color: yellow;
+        cursor: pointer;
+      }
+
+      p {
+        color: red;
+        background-color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="h2" onclick="actionById('h2')">Доступ до властивостей і методів</h2>
+    <p onclick="actionAll()">Колекція all</p>
+    <div id="div" onclick="actionById('div')">Метод getElementById()</div>
+  </body>
+<script src="index.js"></script>
+</html>
